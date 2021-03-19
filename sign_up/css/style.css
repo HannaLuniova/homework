@@ -1,0 +1,188 @@
+@import "zeroing.css";
+@import url("https://fonts.googleapis.com/css2?family=Montserrat&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+
+body {
+    background: rgb(0, 105, 254);
+    background: -moz-linear-gradient(left, rgba(0, 105, 254, 1) 12%, rgba(16, 238, 192, 1) 78%);
+    background: -webkit-linear-gradient(left, rgba(0, 105, 254, 1) 12%, rgba(16, 238, 192, 1) 78%);
+    background: linear-gradient(to right, rgba(0, 105, 254, 1) 12%, rgba(16, 238, 192, 1) 78%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#0069fe', endColorstr='#10eec0',GradientType=1 );
+    padding: 30px;
+    font-family: "Montserrat", sans-serif;
+}
+
+/*заголовок*/
+.header {
+    color: blanchedalmond;
+    margin: 50px 0px 0px 620px;
+    font-size: 50px;
+    font-weight: 700;
+}
+
+/*основной блок*/
+.block {
+    max-width: 1050px;
+    margin: 100px 0px 0px 420px;
+    height: 500px;
+    /* position: relative; */
+    filter: drop-shadow(0px 10px 30px rgb(31, 29, 29));
+}
+
+/*параметры для div в основном блоке*/
+.block div {
+    line-height: 50px;
+    font-size: 18px;
+    font-weight: 700;
+    height: 500px;
+    float: left;
+}
+
+/*левая колонка*/
+.block__1 {
+    background-color: azure;
+    width: 45%;
+    /* display: flex;
+    justify-content: space-around;*/
+}
+
+/*правая колонка*/
+.block__2 {
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url(img/1.jpg);
+    background-blend-mode: overlay;
+    background-color: #526df8;
+    width: 54%;
+}
+
+/*правая колонка*/
+.block__3 {
+    background-color: #0edcc9;
+    width: 1%;
+}
+
+/*Sign up*/
+.slider__1 {
+    color: #2ccea2;
+    border-bottom: 4px solid #2ccea2;
+    margin: 0px 0px 0px 100px;
+}
+
+/*Sign in*/
+.slider__2 {
+    color: #585e5c81;
+    margin: 0px 0px 0px 100px;
+}
+
+.slider__2:focus {
+    color: #2ccea2;
+    border-bottom: 4px solid #2ccea2;
+}
+
+/*type="checkbox" текст*/
+.slider__3 {
+    color: #2ccea2;
+    margin: 50px 0px 0px 10px;
+    font-size: 15px;
+}
+
+/*UPTO заголовок в правой колонке*/
+.slider__4 {
+    border: 8px solid rgba(255, 255, 255, 0.281);
+    width: 400px;
+    height: 300px;
+    margin: 50px 0px 0px 80px;
+    color: white;
+    text-align: center;
+    font-size: 15px;
+    font-family: 'Lato', sans-serif;
+    padding-top: 15px;
+}
+
+.upto{
+    font-size: 30px;
+}
+
+/*% заголовок в правой колонке*/
+.procent {
+    font-size: 60px;
+    font-weight: 700;
+}
+
+.checkbox {
+    position: absolute;
+    opacity: 0;
+}
+.checkbox + label {
+    position: relative;
+    padding: 0 0 0 90px;
+}
+.checkbox + label:before {
+    content: "🗸";
+    position: absolute;
+    width: 15px;
+    height: 13px;
+    background-color: #1bb189;
+    margin: 20px 0px 0px -10px;
+    text-align: center;
+    line-height: 15px;
+    color: beige;
+}
+
+input[type="text"] {
+    margin: 20px 0px 0px 75px;
+    width: 300px;
+    height: 35px;
+    border: 1px solid #585e5c81;
+    padding-left: 20px;
+}
+
+input[type="text"]:focus {
+    box-shadow: 0 0 8px #585e5c81;
+}
+
+input[type="checkbox"] {
+    margin: 50px 0px 0px 50px;
+}
+
+button {
+    background-color: #2ccea2;
+    color: blanchedalmond;
+    width: 150px;
+    height: 35px;
+    margin: 20px 0px 0px 130px;
+}
+
+button:hover {
+    background-color: #1bb189;
+    box-shadow: 2px 2px white, 4px 4px #585e5c81;
+    top: -4px;
+    left: -4px;
+    transition: 1s;
+}
+
+.footer {
+    margin: 80px 0px 0px 650px;
+    color: rgba(240, 255, 255, 0.691);
+    font-size: 15px;
+}
+
+.input__php input {
+    border: 1px solid #e94e06;
+    box-shadow: 0px 0px 5px 0px #e94e06;
+}
+/*php if*/
+.text1 {
+    color: #2ccea2;
+    font-size: 50px;
+    text-align: center;
+    padding-top: 130px;
+}
+
+.text2 {
+    color: #e94e06;
+    font-size: 50px;
+    text-align: center;
+    padding-top: 70px;
+}

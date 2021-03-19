@@ -1,0 +1,115 @@
+@import url("https://fonts.googleapis.com/css2?family=Yusei+Magic&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Potta+One&family=Yusei+Magic&display=swap");
+
+body {
+    background-image: url(img/fon.jpeg);
+}
+
+.head {
+    width: 980px;
+    height: 940px;
+    margin: 20px 0px 0px 450px;
+    background-repeat: no-repeat;
+    background-size: cover, contain;
+    background-image: linear-gradient(#f0efee, #26150f), url("img/zima1.jpg");
+    background-blend-mode: darken;
+    border-radius: 10px;
+    filter: drop-shadow(2px 2px 4px #26150f);
+}
+
+.heading {
+    position: absolute;
+    margin: 280px 0px 0px 90px;
+    font-family: "Potta One", cursive;
+    font-size: 48px;
+    color: blanchedalmond;
+    font-weight: bold;
+    text-align: center;
+    text-shadow: 2px 2px 4px #26150f;
+}
+
+.subtitle {
+    position: absolute;
+    margin: 430px 0px 0px 400px;
+    font-family: "Potta One", cursive;
+    font-size: 20px;
+    color: blanchedalmond;
+    font-weight: bold;
+    text-align: center;
+    text-shadow: 2px 2px 4px #26150f;
+}
+
+table {
+    position: absolute;
+    margin: 480px 0px 0px 150px;
+}
+
+input[type="radio"] {
+    float: right;
+    cursor: pointer;
+    width: 10%;
+    height: 25px;
+}
+
+input[type="submit"] {
+    width: 100px;
+    height: 30px;
+    border: 2px solid rgb(248, 246, 246);
+    background-color: #40281a;
+    border-radius: 20px;
+    color: blanchedalmond;
+    margin-left: 280px;
+    font-family: "Potta One", cursive;
+    font-size: 18px;
+    outline: none;
+    cursor: pointer;
+}
+
+input[type="submit"]:hover {
+    background-color: #492c1b;
+}
+
+td {
+    width: 700px;
+    height: 40px;
+    background-color: #40281a;
+    border-radius: 15px;
+    font-size: 25px;
+    color: blanchedalmond;
+    font-family: "Yusei Magic", sans-serif;
+    padding-left: 20px;
+    text-shadow: 2px 2px 4px #0a0a0a;
+}
+
+td:hover {
+    background-color: #492c1b;
+}
+
+/*php*/
+.heading2 {
+    position: absolute;
+    margin: 220px 0px 0px 100px;
+    color: blanchedalmond;
+    font-size: 70px;
+    text-shadow: 2px 2px 4px #0a0a0a;
+    font-family: "Potta One", cursive;
+}
+
+.text2 {
+    position: absolute;
+    margin: 0px 0px 0px 190px;
+}
+
+.text {
+    margin: 340px 0px 0px 150px;
+    font-family: "Potta One", cursive;
+}
+
+.text p {
+    font-size: 26px;
+    color: transparent; /*Устанавливает прозрачный фон.*/
+    -webkit-background-clip: text;
+    background-clip: text; /*Определяет, как цвет фона или фоновая картинка должна выводиться под границами. */
+    background-image: linear-gradient(#bf9e96 25%, #abddf5 40%, #f04609 75%, #eb640a 100%);
+    /* text-align: center; */
+}

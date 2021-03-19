@@ -1,0 +1,187 @@
+@import url('https://fonts.googleapis.com/css2?family=Langar&display=swap');
+
+/* Переменная*/
+:root {
+    --font-family: 'Langar', cursive;
+    --word-spacing: 30px;
+}
+
+/*фон*/
+body{
+    background-image: url(img/43.jpg);
+    background-repeat: repeat-x;
+    background-size:185px ;
+   
+} 
+
+/*оформление «шапки» страницы (заголовок)*/
+.heading{
+    width:auto; 
+    margin: 150px 0px 0px 400px;
+    position: relative; /* Относительное позиционирование */
+}
+
+/*оформление надписи (заголовок)*/
+.text{
+    font-size:50px;
+    font-family: var(--font-family);
+    word-spacing: var( --word-spacing); /* интервал между словами*/
+    color: rgb(3, 48, 3);
+    filter: drop-shadow(2px 2px 2px rgb(65, 66, 65)); /*тень*/
+}
+
+/* оформление изображений*/
+.content{
+    position: absolute; /* Абсолютное позиционирование */
+    width:auto; 
+    margin: 150px 0px 0px 100px;
+    font-weight: 600; /*насыщенность шрифта*/
+    font-size:23px;
+    word-spacing: 8px;
+    font-family: var(--font-family);
+    color: rgb(4, 31, 4);
+    filter: drop-shadow(2px 2px 2px rgb(3, 54, 14));
+}
+
+/* оформление «подвала» страницы*/
+.start {
+	position: absolute;
+	left: 0;
+	bottom: 0;
+    width: auto;
+    height: 200px;
+}
+
+/* оформление кнопки на first*/
+.submit{
+   margin: 0px 0px 0px 600px;
+   border-radius: 50px;
+   width: 500px;
+   height: 100px;
+   border: 1px solid  rgb(7, 75, 7);
+   background: #43492f ;
+   color: rgb(4, 31, 4); 
+   font-size: 50px; 
+   font-family: var(--font-family);
+   outline: none; /* убирает рамку при нажатии*/
+   filter: drop-shadow(16px 16px 20px rgb(3, 54, 14));
+   
+}
+
+/* оформление кнопки на first*/
+.submit:hover{
+    color: rgb(30, 224, 12);
+    width: 530px;
+    height: 130px;
+    font-size: 55px;
+    transition: 3s;
+}
+
+/*оформление «шапки» страницы (заголовок) на second*/
+.heading2{
+    width:auto; 
+    margin: 160px 0px 0px 300px;
+    position: relative;
+}
+
+/*оформление надписи (заголовок) на second*/
+.text2{
+    font-size:40px;
+    font-family: var(--font-family);
+    word-spacing: 30px;
+    color: rgb(3, 48, 3);
+    filter: drop-shadow(2px 2px 2px rgb(65, 66, 65));
+}
+
+/*оформление ссылки на second*/
+.link{
+    text-decoration: none;
+    color: rgb(3, 48, 3);
+}
+ 
+/*оформление списка вопросов second*/
+.test{
+    position: absolute;
+    margin: 75px 0px 0px 350px;
+    font-size:20px;
+    font-family: var(--font-family);
+    word-spacing: var( --word-spacing);
+    color: #13160a;
+    font-weight: 600;
+    text-shadow: rgb(240, 238, 238) 0 0 2px; /*тень к тексту*/
+}
+
+/*оформление кнопок ввода ответов*/
+.type{
+   border-radius: 50px;
+   width: 150px;
+   height: 25px;
+   border: 1px solid  rgb(2, 48, 2);
+   background-color :#6e774e ; ;
+   color: rgb(8, 8, 8); 
+   font-size: 20px; 
+   font-family: var(--font-family);
+   outline: none;
+   text-align: center;
+  
+}
+
+.type:active {
+    background: rgb(19, 41, 19);
+  }
+
+/* оформление кнопки "ok" на second*/
+.submit2{
+    margin-left: 300px;
+   padding: 0px 0px 70px 0px;
+   border-radius: 50px;
+   width: 350px;
+   height: 20px;
+   border: 1px solid  rgb(7, 75, 7);
+   background: #43492f ;
+   color: rgb(4, 31, 4); 
+   font-size: 50px; 
+   font-family: var(--font-family);
+   text-shadow: rgb(240, 238, 238) 0 0 2px;
+   outline: none;
+   filter: drop-shadow(10px 10px 15px rgb(3, 54, 14));
+}
+
+.submit2:hover{
+    color: rgb(30, 224, 12);
+    font-size: 55px; 
+    transition: 3s;
+
+}
+/* оформление кнопки RESET на second*/
+.submit3{
+    margin: 30px 0px 0px 0px;
+    padding: 0px 0px 70px 0px;
+    text-shadow: rgb(240, 238, 238) 0 0 2px;
+    width: 350px;
+    height: 20px;
+    border-radius: 50px;
+    border: 1px solid  rgb(7, 75, 7);
+    background: #43492f ;
+    color: rgb(4, 31, 4); 
+    font-size: 50px; 
+    font-family: var(--font-family);
+    outline: none;
+    filter: drop-shadow(10px 10px 15px rgb(3, 54, 14));
+}
+
+
+.submit3:hover{
+    color: rgb(30, 224, 12);
+    font-size: 55px; 
+    transition: 3s;
+
+}
+
+/* оформление php*/
+.A{
+    margin: 200px 0px 0px 300px;
+    font-family: var(--font-family);
+    word-spacing: var( --word-spacing);
+    font-size:80px;
+}

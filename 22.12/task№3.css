@@ -1,0 +1,120 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Bangers&family=Luckiest+Guy&display=swap');
+
+body{
+    background-color: #350b83;
+}
+.multiply{
+    position: relative;
+    margin: 130px 0px 0px 700px;
+    border:2px solid #F2BE22;
+    border-radius: 20px;
+    width: 500px;
+    height: 800px;
+    font-size: 30px;
+    text-align: center;
+    color:#00fff2;
+    font-family: 'Playfair Display', serif;
+}
+
+.submit2{
+    position: absolute;
+    margin: 80px 0px 0px 0px;
+    background-color:  #7D0CF2 ;
+    border-radius: 20px;
+    width: 200px;
+    height: 40px;
+    border:none;
+    color: white;
+    font-size: 20px;
+    outline: none;
+    text-align: center;
+    filter: drop-shadow(2px 1px 10px #B40CE8 );
+    font-family: 'Playfair Display', serif;
+
+}
+
+.submit3{
+    margin: 80px 0px 0px 200px;
+    background-color:  #7D0CF2 ;
+    border-radius: 20px;
+    width: 200px;
+    height: 40px;
+    border:none;
+    color: white;
+    font-size: 20px;
+    outline: none;
+    text-align: center;
+    filter: drop-shadow(2px 1px 10px #B40CE8 );
+    font-family: 'Playfair Display', serif;
+
+}
+
+.submit2:hover{
+    background-color:  #B40CE8   ;
+}
+
+.submit3:hover{
+    background-color:  #B40CE8   ;
+}
+
+
+.select{
+    border: 6px solid #C169FF  ; 
+    outline: none;
+    background-color:#7D0CF2 ;
+    border-radius:5px;
+    width:250px;
+    font-size: 20px;
+    color: #F2BE22;
+    font-family: 'Playfair Display', serif;
+}
+
+.select:valid {
+    border: 6px solid #00fff2 ;
+    background-color:#7D0CF2 ;
+    border-radius: 10px;
+    text-align: center;
+    font-size: 20px;
+    color:#00fff2;
+    font-family: 'Playfair Display', serif;
+}
+.but{
+    position: absolute;
+    right: 50px;
+    top: 10px;
+}
+
+.cartoon{
+    position: absolute;
+    margin: 50px 0px 0px 0px;
+    animation-name: pl;
+    animation-duration: 5s;
+    animation-iteration-count:infinite;
+    filter: drop-shadow(6px 1px 15px #00fff2 );
+} 
+
+/* картинка */
+.cartoon2{
+    position: absolute;
+    margin: 50px 0px 0px 1300px;
+    animation-name: cartoon;
+    animation-duration: 4s;
+    animation-iteration-count:infinite;
+    filter: drop-shadow(6px 1px 15px #00fff2 );
+}
+
+ @keyframes cartoon  {
+    from { opacity: 1.0;
+        }
+    to { opacity: 0.4;
+       }
+  }
+
+  @keyframes pl  {
+    from { opacity: 1.0;
+        transform: rotate(360deg);
+        }
+    to { opacity: 0.4;
+        transform: rotate(0deg);
+       }
+  }

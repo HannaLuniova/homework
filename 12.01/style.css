@@ -1,0 +1,53 @@
+@import url("https://fonts.googleapis.com/css2?family=Yusei+Magic&display=swap");
+
+body {
+    background-image: url(dollar.png);
+    font-family: fantasy;
+    font-size: 55px;
+}
+
+div {
+    padding: 20px 0px 0px 0px;
+    margin: 50px 0px 0px 500px;
+    width: 900px;
+    height: 900px;
+    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.3);
+    background: linear-gradient(rgba(241, 231, 137, 0.1), rgba(240, 233, 133, 0.5));
+}
+
+p {
+    margin: 70px 0px 0px 120px;
+    font-family: Georgia, "Times New Roman", Times, serif;
+    color: #59493b;
+    font-weight: bold;
+    text-shadow: 2px 2px 3px #152401;
+}
+
+table {
+    margin: 100px 0px 0px 150px;
+    padding: 50px 50px 50px 50px;
+    border: 2px solid #1d0537;
+    border-spacing: 0px 0px;
+    width: 600px;
+    height: 200px;
+    text-align: center;
+    background-color: rgba(240, 235, 235, 0.801);
+    filter: drop-shadow(6px 6px 8px #98a685);
+}
+
+table td {
+    padding: 6px 6px 6px 6px;
+    border: 2px solid #1d0537;
+    font-size: 40px;
+    text-shadow: 1px 2px 3px #152401;
+    font-family: "Yusei Magic", sans-serif;
+}
+
+table tr:first-child {
+    color: #e93d16;
+    font-weight: bold;
+}
+
+table tr {
+    color: #8c6c5a;
+}

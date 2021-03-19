@@ -1,0 +1,87 @@
+/*светлая тема*/
+.light-theme {
+  color: #333333;
+  background-color: #eae9f2;
+}
+ .theme-button {
+  color: #6653d9;
+  border: 1px solid #6653d9;
+}
+ .theme-button::before {
+  background-image: ;
+}
+ .theme-button:focus,
+ .theme-button:hover {
+  color: #ffffff;
+  background-color: #6653d9;
+}
+ .theme-button:focus::before,
+ .theme-button:hover::before {
+  background-image:;
+}
+.light-theme .subscription {
+  background-color: #ffffff;
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.2);
+}
+
+.light-theme .subscription-message {
+  background-color: #6653d9;
+  color: #eae9f2;
+}
+
+.light-theme .subscription-message::before {
+  background-image: url("img/icon-ok-light.svg");
+}
+
+.light-theme .subscription-label {
+  color: #6653d9;
+}
+
+.light-theme .subscription-email {
+  border-bottom: 1px solid #6653d9;
+  color: #333333;
+}
+
+/*тёмная тема*/
+.dark-theme {
+  color: #f2f2f2;
+  background-color: #17161a;
+}
+ .theme-button {
+  color: #9484f2;
+  border: 1px solid #9484f2;
+}
+ .theme-button::before {
+  background-image: ;
+}
+ .theme-button:focus,
+ .theme-button:hover {
+  color: #17161a;
+  background-color: #9484f2;
+}
+.theme-button:focus::before,
+.theme-button:hover::before {
+  background-image: ;
+}
+.dark-theme .subscription {
+  background-color: #2a2930;
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.6);
+}
+
+.dark-theme .subscription-message {
+  background-color: #9484f2;
+  color: #17161a;
+}
+
+.dark-theme .subscription-message::before {
+  background-image: url("img/icon-ok-dark.svg");
+}
+
+.dark-theme .subscription-label {
+  color: #9484f2;
+}
+
+.dark-theme .subscription-email {
+  border-bottom: 1px solid #9484f2;
+  color: #f2f2f2;
+}

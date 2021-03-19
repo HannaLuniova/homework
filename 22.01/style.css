@@ -1,0 +1,63 @@
+@import url("https://fonts.googleapis.com/css2?family=Coda+Caption:wght@800&family=Potta+One&family=Yusei+Magic&display=swap");
+body {
+    background-image: url(img/fon.png);
+}
+
+.content {
+    padding: 20px 50px 0px 20px;
+    margin: 100px 0px 0px 600px;
+    width: 400px;
+    height: 600px;
+    background-color: white;
+    transform: rotate(-10deg);
+    box-shadow: 0px 0px 30px rgba(0, 0, 0, 0.5);
+}
+
+.content1 {
+    width: 430px;
+    height: 450px;
+    background-color: black;
+}
+
+.content3 {
+    padding: 2px 0px 0px 80px;
+    color: #f7ded0;
+    font-family: "Potta One", cursive;
+    font-size: 25px;
+    text-shadow: 0px 0px 2px snow;
+}
+
+input[type="submit"] {
+    width: 70px;
+    border: 2px solid rgb(248, 246, 246);
+    background-color: #f7ded0;
+    border-radius: 10px;
+    color: rgb(10, 10, 9);
+    margin-left: 100px;
+    font-family: "Potta One", cursive;
+    font-size: 15px;
+    outline: none;
+    cursor: pointer;
+}
+
+input[type="submit"]:hover {
+    background-color: gray;
+}
+
+.content4 {
+    background-color:white;
+    height: 10px;
+    border-radius: 3px;
+}
+
+.content5 {
+    height: 10px;
+    background-color: rgb(240, 235, 235);
+    border-radius: 5px;
+}
+
+.content4:hover{
+    background-color:gray;
+  
+}
+ 

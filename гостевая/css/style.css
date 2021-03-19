@@ -1,0 +1,56 @@
+body {
+    background-image: url(img/pngwing.com.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+p {
+    font-size: 20px;
+    border-radius: 5px;
+    background-color: rgb(196, 189, 189);
+    width: 420px;
+    padding-left: 20px;
+    filter: drop-shadow(2px 2px 4px black);
+}
+ p:nth-child(even){
+   background-color: rgb(204, 187, 162);
+   margin-left: 40px;
+}
+span {
+    font-size: 15px;
+    background-color: rgba(47, 79, 79, 0.178);
+    border-radius: 5px;
+    padding: 0px 5px 0px 5px;
+    margin-left: 100px;
+}
+.content {
+    margin: 50px 0px 0px 850px;
+}
+
+.message {
+    margin: 100px 0px 0px 850px;
+}
+
+input[type="submit"] {
+    background-color: #0597f2;
+    width: 50px;
+    height: 30px;
+    border-radius: 5px;
+    border: 1px solid #585e5c81;
+    outline: none;
+    filter: drop-shadow(2px 2px 4px black);
+}
+
+input[type="text"] {
+    border-radius: 5px;
+    background-color: darkgray;
+    border: 1px solid #585e5c81;
+    outline: none;
+    filter: drop-shadow(2px 2px 4px black);
+}
+textarea {
+    border-radius: 5px;
+    background-color: darkgray;
+    border: 1px solid #585e5c81;
+    outline: none;
+    filter: drop-shadow(2px 2px 4px black);
+}

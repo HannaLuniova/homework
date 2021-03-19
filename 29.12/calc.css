@@ -1,0 +1,38 @@
+body {
+    background-image: url(calc.png);
+    }
+    
+    .calculator {
+    margin: 200px 0px 0px 750px;
+    width: 450px;
+    height: 550px;
+    border-radius: 10px;
+    border: 1px solid #D9B5AD;
+    box-shadow: 3px 3px 7px #D9B5AD;
+    color:#D9B5AD ;
+    }
+
+    .tb {
+    margin: 0 auto ;
+    margin-top: 40px;
+    width: 420px;
+    }
+    
+    .A input {
+    background:#D9B5AD;
+    margin: 0 auto;
+    overflow: hidden; /*Отображается только область внутри элемента, остальное будет скрыто.*/
+    width: 407px;
+    height: 50px;
+    border-radius: 5px;
+    font-size: 24px;
+    }
+    
+    .B input {
+    margin: 0 auto;
+    overflow: hidden;
+    width: 100px;
+    height: 100px;
+    border-radius: 5px;
+    font-size: 24px;
+    }

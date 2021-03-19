@@ -1,0 +1,107 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Bangers&family=Luckiest+Guy&display=swap');
+
+
+body{
+    background-color: #350b83;
+}
+
+
+/* блок form*/
+.multiply{
+    position: relative;
+    margin: 40px 0px 0px 600px;
+    border:2px solid #F2BE22;
+    border-radius: 20px;
+    width: 700px;
+    height: 930px;
+    font-size: 30px;
+    text-align: center;
+    color:#00fff2;
+    font-family: 'Playfair Display', serif;
+}
+ 
+/* картинка */
+.cartoon{
+    position: absolute;
+    margin: 150px 0px 0px 0px;
+    animation-name: cartoon;
+    animation-duration: 4s;
+    animation-iteration-count:infinite;
+    filter: drop-shadow(6px 1px 15px #00fff2 );
+} 
+
+/* картинка */
+.cartoon2{
+    position: absolute;
+    margin: 150px 0px 0px 1300px;
+    animation-name: cartoon;
+    animation-duration: 4s;
+    animation-iteration-count:infinite;
+    filter: drop-shadow(6px 1px 15px #00fff2 );
+}
+
+ @keyframes cartoon  {
+    from { opacity: 1.0;
+        }
+    to { opacity: 0.4;
+       }
+  }
+
+/* кнопка возврата*/
+  .but{
+    position: absolute;
+    right: 50px;
+    top: 10px;
+}
+
+ /* input*/
+.in{
+        cursor: pointer;
+        width: 26px;
+        height: 20px;
+    }
+   
+
+.submit2{
+    background-color:  #7D0CF2 ;
+    border-radius: 20px;
+    width: 100px;
+    height: 40px;
+    border:none;
+    color: white;
+    font-size: 20px;
+    outline: none;
+    text-align: center;
+    filter: drop-shadow(2px 1px 10px #B40CE8 );
+    font-family: 'Playfair Display', serif;
+
+}
+
+.submit3{
+    background-color:  #7D0CF2 ;
+    border-radius: 20px;
+    width: 100px;
+    height: 40px;
+    border:none;
+    color: white;
+    font-size: 20px;
+    outline: none;
+    text-align: center;
+    filter: drop-shadow(2px 1px 10px #B40CE8 );
+    font-family: 'Playfair Display', serif;
+
+}
+
+.submit2:hover{
+    background-color:  #B40CE8   ;
+}
+
+
+.submit3:hover{
+    background-color:  #B40CE8   ;
+}
+
+.heading{
+    color:#CCCC04;
+    font-family: fantasy;
+}
