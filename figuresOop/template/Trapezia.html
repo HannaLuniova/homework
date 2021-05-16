@@ -1,0 +1,26 @@
+<div class="container">
+    <div class="row">
+        <div class="col"></div>
+        <div class="col">
+            <form action="rezult.php?form=trapezia" method="post">
+                <div class="mb-3">
+                    <label for="formGroupExampleInput" class="form-label"></label>
+                    <input name="a" type="text" class="form-control" id="formGroupExampleInput" placeholder="a"><br>
+                    <input name="b" type="text" class="form-control" id="formGroupExampleInput" placeholder="b"><br>
+                    <input name="c" type="text" class="form-control" id="formGroupExampleInput" placeholder="c"><br>
+                    <input name="h" type="text" class="form-control" id="formGroupExampleInput" placeholder="h"><br>
+<!--                    <input type="hidden" name="form" value="trapezia">-->
+                    <br>
+                </div>
+                <select name="op" class="form-select" aria-label="Default select example">
+                    <option selected>Выберите операцию</option>
+                    <option value="square">площадь</option>
+                    <option value="perimeter">периметр</option>
+                </select>
+                <br><br>
+                <input type="submit" class="btn btn-info" value="Вычислить">
+            </form>
+        </div>
+        <div class="col"></div>
+    </div>
+</div>

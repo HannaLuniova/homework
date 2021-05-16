@@ -1,0 +1,23 @@
+<div class="container">
+    <div class="row">
+        <div class="col"></div>
+        <div class="col">
+            <form action="rezult.php?form=cubic" method="post">
+                <div class="mb-3">
+                    <label for="formGroupExampleInput" class="form-label">Введите значение стороны куба.</label>
+                    <input name="a" type="text" class="form-control" id="formGroupExampleInput" placeholder="a">
+<!--                    <input type="hidden" name="form" value="cubic">-->
+                    <br>
+                </div>
+                <select name="op" class="form-select" aria-label="Default select example">
+                    <option selected>Выберите операцию</option>
+                    <option value="square">площадь</option>
+                    <option value="perimeter">периметр</option>
+                </select>
+                <br><br>
+                <input type="submit" class="btn btn-info" value="Вычислить">
+            </form>
+        </div>
+        <div class="col"></div>
+    </div>
+</div>

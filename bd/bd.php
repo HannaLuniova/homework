@@ -35,18 +35,18 @@
                 // mysqli_fetch_assoc возвращает ряд результата запроса в качестве ассоциативного массива
                 while ($row = mysqli_fetch_assoc($result)) {
                     echo
-                    "<tr>
-                      <td> $row[city]</td>
-                      <td> $row[email]</td>
-                      <td> $row[gender]</td>
-                      <td> $row[age]</td>
-                      <td>
-                      <a href='bdEdit.php?id=$row[id]'>🛠</a> 
-                      </td>
-                      <td>
-                      <a href='delete.php?id=$row[id]'>🗑</a>
-                      </td>
-                    </tr>";
+                    "<tr>" .
+                        "<td> $row[city]</td>" .
+                        "<td> $row[email]</td>" .
+                        "<td>" . ($row['gender'] == 'male' ? '👨' : '👩') . "</td>" .
+                        "<td> $row[age]</td>" .
+                        "<td>" .
+                        "<a href='bdEdit.php?id=$row[id]'>🛠</a>" .
+                        "</td>" .
+                        "<td>" .
+                        "<a href='delete.php?id=$row[id]'>🗑</a>" .
+                        "</td>" .
+                        "</tr>";
                 }
 
                 echo "</table> ";
@@ -55,10 +55,10 @@
 
                 <!-- Добавление строк в таблицу -->
                 <a class=" btn btn-outline-dark" href="bdAdd.php">Добавить</a>
+            </div>
+            <div class="col"></div>
         </div>
-        <div class="col"></div>
-    </div>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.bundle.min.js" integrity="sha384-JEW9xMcG8R+pH31jmWH6WWP0WintQrMb4s7ZOdauHnUtxwoG2vI5DkLtS3qm9Ekf" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.bundle.min.js" integrity="sha384-JEW9xMcG8R+pH31jmWH6WWP0WintQrMb4s7ZOdauHnUtxwoG2vI5DkLtS3qm9Ekf" crossorigin="anonymous"></script>
 </body>
 
 </html>
