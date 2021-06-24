@@ -1,11 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="bac9877e-5b28-4387-a932-1600df481eea" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/../listFunction/listFunction.zip" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../setList/list.zip" beforeDir="false" />
-    </list>
+    <list default="true" id="6fd0eb4e-7579-4ab6-a3c7-b4a54d2aefbd" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -14,17 +10,10 @@
   <component name="ComposerSettings">
     <execution />
   </component>
-  <component name="FileTemplateManagerImpl">
-    <option name="RECENT_TEMPLATES">
-      <list>
-        <option value="CSS File" />
-      </list>
-    </option>
-  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
-  <component name="ProjectId" id="1o6LPN3xaRS4ddCy2v9odC3tqZ2" />
+  <component name="ProjectId" id="1swS7PLVOzDFjm7txdzNMgP2TKf" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="autoscrollToSource" value="true" />
@@ -36,25 +25,17 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="vue.rearranger.settings.migration" value="true" />
-  </component>
-  <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="D:\OpenServer\domains\LuniovaHanna\homework\05.02\css" />
-    </key>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="bac9877e-5b28-4387-a932-1600df481eea" name="Default Changelist" comment="" />
-      <created>1612602068823</created>
+      <changelist id="6fd0eb4e-7579-4ab6-a3c7-b4a54d2aefbd" name="Default Changelist" comment="" />
+      <created>1621781991229</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1612602068823</updated>
-      <workItem from="1612602069942" duration="13387000" />
-      <workItem from="1622564731006" duration="10000" />
-      <workItem from="1623689778866" duration="20000" />
+      <updated>1621781991229</updated>
+      <workItem from="1621781992440" duration="14000" />
     </task>
     <servers />
   </component>
